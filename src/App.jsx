@@ -1,10 +1,10 @@
 import { useState } from "react";
-import { ChevronDown } from 'react-feather'
+import {   ChevronDown } from 'react-feather'
 import { ChevronUp } from 'react-feather'
 import { ChevronsUp } from 'react-feather'
 import { ChevronsDown } from 'react-feather'
 import { Hash } from 'react-feather'
-import { RefreshCcw } from 'react-feather'
+import { RotateCcw } from 'react-feather'
 import './App.css'
 
 function App() {
@@ -46,7 +46,7 @@ function App() {
         <div className="buttonSet">
           <button onClick={increaseByOne}><ChevronUp /></button>
           <button onClick={increaseByTen}><ChevronsUp /></button>
-          <button onClick={reset}><RefreshCcw /></button>
+          <button onClick={reset}><RotateCcw /></button>
           <button onClick={random}><Hash /></button>
           <button onClick={decreaseByTen}><ChevronsDown /></button>
           <button onClick={decreaseByOne}><ChevronDown /></button>
