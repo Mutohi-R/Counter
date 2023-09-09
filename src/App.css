@@ -5,14 +5,13 @@
   margin-bottom: 9rem;
   background-color: #fff;
   padding: 2rem;
-  display: grid;
-  place-content: center;
-  width: 400px;
-  display: flex;
+  display: flex; 
   flex-direction: column;
+  align-items: center; 
+  justify-content: center; 
+  width: 400px;
   border-radius: 10px;
-  box-shadow: 19px 19px 28px #a740ca8f,
-    -19px -19px 28px #D8AFE6;
+  box-shadow: 19px 19px 28px #a740ca8f, -19px -19px 28px #d8afe6;
 }
 
 .countState {
